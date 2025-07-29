@@ -1,0 +1,20 @@
+*{
+    padding: 0;
+    margin: 0;
+    font-family: sans-serif;
+    box-sizing: border-box;
+}
+a{
+    text-decoration: none;
+}
+ul{
+    list-style: none;
+}
+:root{
+    --main-color:black;
+    --secondary-color:#FFFFFF;
+    --secondary2-color:#27AE60;
+    --secondary3-color:rgb(144, 146, 209);
+    --secondary4-color:#67675F;
+    --secondary5-color:#F8F8F8;
+}

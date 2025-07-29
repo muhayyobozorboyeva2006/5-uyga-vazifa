@@ -1,0 +1,82 @@
+header{
+    cursor: pointer;
+    position: fixed;
+    width: 100%;
+    top: 0;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+.hero{
+  display: grid;
+  grid-template-columns: auto auto auto;
+  align-items: center;
+  justify-content: space-between;
+}
+.hero-ul{
+    display:grid;
+    grid-template-columns: auto auto auto auto auto;
+    gap: 40px;
+}
+.hero-ul li a{
+   color: var(--main-color);
+   font-size: 16px;
+   line-height: 100%;
+}
+.toggle{
+  background-color: transparent;
+  border: none;
+  font-size: 20px;
+  display: none;
+}
+@media (max-width:910px) {
+  .hero-ul{
+    display: none;
+  }
+  .toggle{
+    display: block;
+  }
+}
+.toggle img{
+     width: 30px;
+     cursor: pointer;
+}
+.hero-ul2{
+  transform: translateX(200%);
+  background-color: black;
+  position: fixed;
+  top: 0;
+  width: 50vw;
+  height: 100vh;
+  display: grid;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  border-radius: 8px;
+  transition: 0,5s;
+}
+.show{
+   transform: translateX(200%);
+}
+.hero-ul2 li{
+  border: 2px solid rgb(117, 113, 236);
+  max-width: 300px;
+  width: 100%;
+  height: 60px;
+}
+.hero-ul2 li a{
+  color: var(--secondary-color);
+  display: grid;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  height: 100%;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  padding-right: 45px;
+  padding-left: 45px;
+  cursor: pointer;
+  transform: 0,6s;
+}
+.hero-ul2 :hover{
+  background-color: var(--secondary3-color);
+}

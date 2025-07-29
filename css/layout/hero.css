@@ -1,0 +1,17 @@
+#heros{
+  background-image: url(../../imges/bulduzur.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+.heros-card_tetli {
+    padding-top: 320px;
+    font-size: 60px;
+    line-height: 100%;
+    color: var(--secondary-color);}
+.heros-card_des{
+    padding-top: 30px;
+    font-size: 20px;
+    line-height: 140%;
+    color: var(--secondary-color);
+}

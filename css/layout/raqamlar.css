@@ -1,0 +1,64 @@
+.raqamlar{
+   display: grid;
+   grid-template-columns: auto auto;
+   align-items: center; 
+}
+.raqamlar1-tetli{
+   font-size: 42px;
+   line-height: 100%;
+   padding-top: 190px;
+   padding-bottom:28px ;
+}
+.raqamlar1-des{
+    font-size: 18px;
+    line-height: 142%;
+    color: var(--secondary4-color);
+}
+.raqamlar2{
+    display: grid;
+    grid-template-columns: auto auto;
+    justify-content: space-between;
+    background-color: var(--secondary5-color);
+    border-radius: 24px;
+    max-width: 750px;
+    height: 546px;
+    margin-top: 60px;
+}
+.raqamlar3-tetli{
+    font-size: 88px;
+    line-height: 142%;
+    padding-top: 150px;
+    padding-left: 75px;
+}
+.raqamlar3-des{
+    font-size: 24px;
+    line-height: 142%;
+    padding-left: 75px;
+
+}
+.raqamlar4-tetli {
+    font-size: 88px;
+    line-height: 142%;
+    padding-top: 150px;
+}
+
+.raqamlar4-des {
+    font-size: 24px;
+    line-height: 142%;
+    padding-right: 75px;
+}
+@media(max-width:650px){
+    .raqamlar2{
+        display: flex;
+            flex-direction: column;
+            align-items: center;
+            height: 650px;
+    }
+}
+@media(max-width:460px){
+    .raqamlar{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+}

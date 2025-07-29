@@ -1,0 +1,24 @@
+.heros-card_btn {
+    font-size: 32px;
+    line-height: 100%;
+    margin-top: 60px;
+    color: var(--secondary-color);
+    padding-top: 20px;
+    padding-left: 36px;
+    padding-bottom: 20px;
+    padding-right: 36px; 
+    background-color: var(--secondary2-color); 
+    margin-bottom: 186px;
+    cursor: pointer;
+    border-radius: 8px;
+}
+.menyu-btn{
+   color: var(--secondary-color); 
+   background-color: var(--secondary2-color);
+   padding-left: 36px;
+   padding-top:20px ;
+   padding-bottom: 20px;
+   padding-right:36px;
+   margin-bottom: 137px;
+   border-radius: 8px;
+}

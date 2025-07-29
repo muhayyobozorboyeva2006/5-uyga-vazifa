@@ -1,0 +1,53 @@
+.repuirement1-card{
+    display: grid;
+    grid-template-columns: auto auto auto auto auto;
+    gap: 30px;
+}
+.repuirement1-card2{
+    display: grid;
+    grid-template-columns: auto auto;
+    align-items: center;
+    max-width: 200px;
+    padding-left: 10px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    padding-right: 10px;
+        border: 2px solid rgb(12, 12, 12);
+        color:var(--main-color);
+            max-width: 300px;
+            width: 100%;
+            height: 60px;
+            border-radius: 8px;
+}
+.repuirement-card_tetli{
+    font-size: 42px;
+    line-height: 100%;
+    padding-top: 80px;
+    padding-bottom:58px ;
+}
+.repuirement1-card2_tetli{
+    font-size: 14px;
+    line-height: 140%;
+}
+@media(max-width:990px){
+    .repuirement1-card{
+        grid-template-columns: repeat(3 , auto);
+    }
+}
+@media(max-width:660px){
+    .repuirement1-card{
+        grid-template-columns: repeat(2 , auto);
+    }
+}
+@media (max-width:470px){
+    .repuirement1-card{
+        grid-template-columns: repeat(2,auto);
+    }
+}
+@media(max-width:350px){
+    .repuirement1-card{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+}

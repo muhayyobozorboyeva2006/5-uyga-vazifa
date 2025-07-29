@@ -1,0 +1,86 @@
+#tuproq{
+    background-image: url(../../imges/Rectangle\ 10.png);
+    max-width: 340px;
+    height: 500px;
+    border-radius: 8px;
+    cursor: pointer;
+}
+#tosh{
+    background-image: url(../../imges/toshlar.jpeg);
+    max-width: 340px;
+    height: 500px;
+    border-radius: 8px;
+    cursor: pointer;
+}
+#maydatoshlar{
+    background-image: url(../../imges/Rectangle\ 12.png);
+    max-width: 340px;
+        height: 500px;
+        border-radius: 8px;
+        cursor: pointer;
+}
+#bulduzur{
+    background-image: url(../../imges/Rectangle\ 13\ \(1\).png);
+    max-width: 340px;
+        height: 500px;
+        border-radius: 8px;
+        cursor: pointer;
+}
+.tuproq-tetli{
+    font-size: 40px;
+    line-height: 100%;
+    padding-left:40px;
+    padding-right:174px;
+    padding-top: 437px;
+    padding-bottom: 40px;
+    color: var(--secondary-color);
+}
+.tuproq-tetli1{
+  font-size: 40px;
+  line-height: 100%;
+padding-left: 40px;
+    padding-right: 174px;
+    padding-top: 400px;
+    padding-bottom: 30px;
+    color: var(--secondary-color)
+}
+.tuproq-tetli2{
+    font-size: 40px;
+    line-height: 100%;
+    padding-left:40px;
+    padding-bottom: 30px;
+    padding-right:174px;
+    padding-top:400px ;
+    color: var(--secondary-color);
+}
+.suradlar1-tetli{
+    font-size: 42px;
+    line-height: 100%;
+    padding-bottom: 60px;
+    padding-top: 40px;
+}
+.suradlar{
+    display: grid;
+    grid-template-columns: auto auto  auto auto;
+    /* gap: 20px; */
+    padding-bottom: 50px;
+    justify-content: space-between;
+}
+@media (max-width:1445px){
+    .suradlar{
+        grid-template-columns: repeat(3 , auto) ;
+    }
+}
+@media(max-width:1065px){
+    .suradlar{
+        grid-template-columns: repeat(2 , auto);
+    }
+}
+@media (max-width:730px){
+    .suradlar{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 20px;
+    }
+}
